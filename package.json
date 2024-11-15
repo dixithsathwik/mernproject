@@ -1,0 +1,17 @@
+{
+    "name": "doctor-management-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+      "start-backend": "cd doctor-management-backend && npm start",
+      "start-frontend": "cd doctor-management-frontend && npm start"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "concurrently": "^7.0.0"
+    }
+  }
+  
